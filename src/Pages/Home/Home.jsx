@@ -1,0 +1,26 @@
+import React from 'react'
+import './Home.css'
+
+export const Home = () => {
+  return (
+    <div className='home'>
+      <div className='hero'>
+        <h1>Largest <br /> Crypto Marketplace</h1>
+        <p>Welcome to the World's largest Crypto Marketplace. Sign up to explore more about Cryptos</p>
+        <form>
+          <input type='text' placeholder='Search..' />
+          <button type='submit'>Search</button>
+        </form>
+      </div>
+      <div className="cryto-table">
+        <div className="table-layout">
+          <p>#</p>
+          <p>Coins</p>
+          <p>Price</p>
+          <p>24H Change</p>
+          <p>Market Cap</p>
+        </div>
+      </div>
+    </div>
+  )
+}

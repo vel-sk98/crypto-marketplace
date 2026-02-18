@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+NZ+Basic+Guides&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    color:white;
+    background: linear-gradient(180deg, #030712 0%, #0f172a 60%, #111827 100%);
+
+
+}
