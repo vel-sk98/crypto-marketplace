@@ -12,7 +12,6 @@ a{
 }
 .container{
     min-height: 100vh;
-    min-width: 100vw;
     color:white;
     background: linear-gradient(180deg, #030712 0%, #0f172a 60%, #111827 100%);
 
