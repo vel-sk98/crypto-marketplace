@@ -9,6 +9,7 @@ import {Features} from './Pages/Features'
 import {Pricing} from './Pages/Pricing'
 import { Blog } from './Pages/Blog'
 import Coin from './Pages/Coin/Coin'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/pricing' element={<Pricing />} />
         <Route path='/blog' element={<Blog />} />
       </Routes>
+      <Footer/>
 
     </div>
   )
